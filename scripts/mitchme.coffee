@@ -13,7 +13,7 @@
 # Author:
 #   vquaiato
 
-quotes = [
+mitches = [
   "Agree with you, the council does. Your apprentice, Skywalker will be.",
   "Always two there are, no more, no less: a master and an apprentice.",
   "Fear is the path to the Dark Side. Fear leads to anger, anger leads to hate; hate leads to suffering. I sense much fear in you.",
@@ -41,4 +41,5 @@ quotes = [
 
 module.exports = (robot) ->
   robot.hear /.*(mitch me).*/i, (msg) ->
-    msg.send msg.random quotes
+    msg.send msg.random mitches
+
