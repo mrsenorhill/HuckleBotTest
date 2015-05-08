@@ -8,10 +8,10 @@
 #   None
 #
 # Commands:
-#   yoda quote - Returns a random yoda quote
+#   mitch me - Returns a random Mitch Hedberg quote
 #
 # Author:
-#   vquaiato
+#   mrsenorhill
 
 mitches = [
   "Agree with you, the council does. Your apprentice, Skywalker will be.",
