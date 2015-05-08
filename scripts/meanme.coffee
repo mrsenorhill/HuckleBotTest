@@ -14,8 +14,8 @@
 #   mrsenorhill
 
 meanies = [
-  ""On Wednesdays we wear pink."",
-  ""Is butter a carb?"",
+  "On Wednesdays we wear pink.",
+  "Is butter a carb?",
   "Boo, you whore",
   "I want my pink shirt back!",
   "She doesn't even go here.",
