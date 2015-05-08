@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   mitch me - Returns a random Mitch Hedberg quote
+#   mitch it - Returns a random Mitch Hedberg quote
 #
 # Author:
 #   mrsenorhill
@@ -19,6 +19,6 @@ mitches = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /.*(mitch me).*/i, (msg) ->
+  robot.hear /.*(mitch it).*/i, (msg) ->
     msg.send msg.random mitches
 
